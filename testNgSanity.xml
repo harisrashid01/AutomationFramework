@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+    <test name="test OMDB">
+        <classes>
+            <class name="Tests.OMDBTest"></class>
+        </classes>
+    </test>
+    <test name="test IPLocateAndWeather">
+        <classes>
+            <class name="Tests.IPLocateTest"></class>
+            <class name="Tests.WeatherTest"></class>
+        </classes>
+    </test>
+</suite>
